@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Quicksand:wght@300&display=swap');
+/* rgb(37,8,42) */
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    background-color: rgb(37,8,42);
+  
+}
+.container{
+    
+        margin-top: 50px;
+       
+        width: 1000px;
+    
+    }
+.task-content{
+    width: 700px;
+    color: white;
+    margin-left: 130px;
+    background-color: rgb(51,0,123);
+    border-radius: 8px ;
+}
+
+
+.task-content .task-content-adddata .icon{
+
+    margin-top: 21px;
+}
+
+.task-content .task-content-adddata .headding{
+   margin-left: 152px;
+   
+    
+}
+.task-content .task-content-adddata .headding h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 2px;
+  
+}
+
+.task-content .task-data{
+    
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 60px;
+    height: 60px;
+    width: 608px;
+    background-color: rgb(131,0,196);
+    padding-top:13px ;
+    padding-left: 40px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+
+
+.task-content .task-content-box .task-data .task-delete{
+    margin-left: auto;
+}
+
+.task-content .task-content-box .task-data .task-delete  button{
+    background-color: transparent;
+    border: none;
+    float: right;
+}
+.task-content .task-content-box .task-data .task-status  button{
+    background-color: transparent;
+    border: none;
+}
+.task-content .task-content-box .task-data .task-edit  button{
+    background-color: transparent;
+    border: none;
+}
+
+.task-content .task-content-box .task-data .task-delete  button i{
+    color: white;
+} 
+
+
+
+/* screen2 */
+
+.form .form-content {
+   margin-left: 290px;
+   margin-top: 100px;
+   border-radius: 6px;
+   width: 400px;
+   height: 400px;
+background-color: rgb(51,0,123);
+
+}
+.form .form-content h3{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.form .form-content .form-content-box form{
+    margin-left: 82px;
+    margin-top: 50px;
+}
+.form .form-content .form-content-box form label{
+    color: white;
+    font-size: 20px;
+    margin-left: 65px;
+    font-weight: 100;
+  
+    letter-spacing: 2px;
+}
+.form .form-content .form-content-box form input{
+ 
+    width: 300px;
+    border-radius: 30px;
+    height: 50px;
+    /* background-color: rgb(253, 218, 13); */
+    border: solid black;
+}
+.form .form-content .form-content-box form input:focus{
+    /* background-color: rgb(37,8,42); */
+    outline: none;
+}
+.form .form-content .form-content-box form input[type=text]{
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+::placeholder{
+    font-size: 25px;
+    padding-left: 10px;
+    color: black;
+
+}
+.form .form-content .form-content-box form button{
+    margin-top: 30px;
+    margin-left: 95px;
+    font-size: 17px;
+    width: 120px;
+	background-color: white;
+    text-align: center;
+	color: black;
+	text-transform: uppercase;
+    letter-spacing: 2px;
+	font-size:18px;
+	font-weight: bolder;
+	padding:9px 19px;
+    border-radius: 30px;
+    border: solid 4px;
+    border-color: rgb(37,8,42);
+}
+.form .form-content .form-content-box form button:hover{
+    background-color: rgb(37,8,42);
+    color: white;
+}
+
+.form .form-content .form-content-box form input ::placeholder{
+    font-size: 28px;
+    color: white;
+}
